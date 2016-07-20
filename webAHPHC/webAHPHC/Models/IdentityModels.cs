@@ -21,7 +21,7 @@ namespace webAHPHC.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("FBADB", throwIfV1Schema: false)
         {
         }
 
